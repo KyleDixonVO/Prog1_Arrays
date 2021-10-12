@@ -10,6 +10,22 @@ namespace Prog1_Arrays
     {
         static void Main(string[] args)
         {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
