@@ -10,6 +10,29 @@ namespace Prog1_Arrays
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Ammo System:");
+            int weapon = 0;
+
+            Console.WriteLine("BEFORE Arrays: ");
+            int pistolAmmo = 6;
+            int shotGunAmmo = 2;
+            int bfgAmmo = 20;
+
+            if (weapon == 0)
+            {
+                Console.WriteLine("Pistol Ammo: " + pistolAmmo);
+            }
+            else if (weapon == 1)
+            {
+                Console.WriteLine("Shot Gun Ammo: " + shotGunAmmo);
+            }
+            else if (weapon == 4)
+            {
+                Console.WriteLine("Bfg Ammo" + bfgAmmo);
+            }
+
+
+            Console.WriteLine("Arrays: ");
 
 
 
@@ -23,9 +46,7 @@ namespace Prog1_Arrays
 
 
 
-
-
-
+            Console.ReadKey(true);
         }
     }
 }
